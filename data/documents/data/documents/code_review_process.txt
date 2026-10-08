@@ -1,0 +1,13 @@
+Northstar Operations Group Code Review Process
+
+All production code changes must be reviewed before being merged. The review process improves quality, security, maintainability, and knowledge sharing.
+
+Developers must create a pull request describing the business purpose, technical approach, testing performed, deployment considerations, and rollback plan.
+
+At least one qualified peer reviewer must approve a standard change. Unit tests, formatting checks, linting, dependency checks, and security scans must pass before approval.
+
+Changes involving authentication, authorization, payment processing, confidential data, infrastructure, or major database changes require two reviewers. One reviewer must have relevant technical or security expertise.
+
+Reviewers assess correctness, security, error handling, test coverage, maintainability, performance, and operational impact.
+
+Only the pull request author or an authorized release manager may merge approved code. Emergency fixes may use an expedited review path, but a second review and retrospective review must be completed within two business days.

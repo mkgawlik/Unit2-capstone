@@ -1,0 +1,61 @@
+Northstar Operations Group Customer Complaint Handling Procedure
+
+Purpose
+
+Northstar treats complaints as opportunities to resolve customer issues, preserve trust, identify recurring problems, and improve products, services, and processes. A complaint includes any expression of dissatisfaction that requires investigation, response, correction, or escalation.
+
+Complaint Intake Channels
+
+Customers may submit complaints through the support portal, email, telephone, account managers, Customer Success, implementation teams, or designated escalation channels.
+
+Employees who receive a complaint outside the normal support process must make sure it is recorded in the official case-management system. Complaints must not be handled only through informal messages or private notes.
+
+Required Case Information
+
+Each complaint record should include a case number, customer identifier, date and time received, intake channel, product or service involved, description of the concern, affected users, business impact, requested outcome, assigned owner, severity, and relevant communications.
+
+The case owner should distinguish facts provided by the customer from internal assumptions or preliminary theories.
+
+Acknowledgment and Response Standards
+
+The support team must acknowledge a complaint within one business day. The acknowledgment should confirm receipt, provide the case number, identify the case owner, explain the next step, and set expectations for the next update.
+
+Standard complaints should receive an investigation update within three business days and a proposed resolution within five business days. If the investigation takes longer, the case owner must provide periodic updates and explain the reason for the delay.
+
+High-Severity Complaints
+
+High-severity complaints include potential privacy or security incidents, safety concerns, repeated service failures, executive escalations, significant financial impact, threats to terminate a strategic relationship, or issues affecting multiple customers.
+
+High-severity complaints must be escalated to Customer Success leadership on the same business day. Privacy, security, legal, communications, product, operations, or executive stakeholders may be involved depending on the issue.
+
+Investigation Process
+
+The case owner reviews account history, service records, contracts or approved scope, support interactions, product information, implementation records, system evidence, and relevant communications.
+
+The investigation should determine what happened, when it happened, who or what was affected, whether the issue is isolated or recurring, the likely root cause, and whether other customers may be exposed to the same problem.
+
+Customer information must be handled according to the Security Policy. Employees must not send confidential information through unauthorized channels or include unnecessary sensitive information in case notes.
+
+Resolution Options
+
+Possible resolutions include correcting the service issue, restoring functionality, providing training, replacing a deliverable, changing a process, issuing an approved credit, or offering another authorized remedy.
+
+Credits, refunds, contract changes, or other financial remedies must follow applicable approval thresholds. Employees must not promise an unapproved remedy.
+
+Communication with Customers
+
+Customer communications should be accurate, respectful, timely, and understandable. The response should describe what is known, what action has been taken, what remains unresolved, expected timing, and how the customer can request further review.
+
+Employees must not blame the customer, speculate about unconfirmed causes, disclose internal security details, or make commitments outside their authority.
+
+Closure and Follow-Up
+
+A complaint may be closed when the agreed action is completed, the customer has received a response, and remaining concerns are documented. The case owner should confirm whether the customer accepts the resolution when practical.
+
+Material or repeated complaints require a root-cause review and a corrective action with an accountable owner and target completion date.
+
+Monthly Reporting
+
+Customer Success reviews complaint volume, complaint rate, response time, resolution time, aging cases, repeat complaints, escalation rate, root-cause categories, approved credits, customer satisfaction, and unresolved corrective actions monthly.
+
+Trends should be shared with Product, Sales, Operations, Support, Security, and leadership when the issue crosses organizational boundaries. Complaint data should be used to improve customer experience rather than to discourage legitimate reporting.

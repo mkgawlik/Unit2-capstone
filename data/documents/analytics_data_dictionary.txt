@@ -1,0 +1,81 @@
+Northstar Operations Group Analytics Data Dictionary and Interpretation Guide
+
+Dataset Status
+
+All records in this demonstration dataset are fictional, non-confidential, and intended for testing document search, SQL queries, and multi-agent analysis.
+
+The database contains operational metrics for revenue, customer churn, employee experience, and sales/customer-success performance. Data is designed to support directional analysis rather than financial reporting, forecasting, or causal conclusions.
+
+Revenue Data
+
+The regional_revenue table contains one row for each month and region. Fields include month, quarter, region, revenue_usd, orders, and gross_margin_pct.
+
+Monthly revenue trends are calculated by summing revenue_usd across all regions for each month. Orders can be summed across regions. Gross margin percentage is generally summarized using an average, but analysts should clarify whether a revenue-weighted margin is more appropriate for a specific use.
+
+Q4 represents October, November, and December 2025. Regional Q4 performance can be compared using total revenue, total orders, average gross margin, revenue growth, and order productivity.
+
+Customer Churn Data
+
+The customer_churn table contains beginning_customers, churned_customers, new_customers, and ending_customers by month.
+
+Monthly gross customer churn rate is calculated as:
+
+churned_customers divided by beginning_customers
+
+A weighted period churn rate is calculated as total churned_customers divided by total beginning_customers for the selected period. This is generally more representative than averaging monthly percentages when monthly customer populations differ.
+
+Churn rate should not be confused with net customer change. Net customer change reflects new customers minus churned customers. A company can grow its ending-customer count while still experiencing an increasing churn rate.
+
+Employee Experience Data
+
+The employee_satisfaction table contains quarterly results by department. Fields include satisfaction_pct, industry_benchmark_pct, manager_effectiveness_pct, workload_balance_pct, learning_access_pct, monthly_one_on_one_completion_pct, and learning_time_target_met_pct.
+
+The benchmark gap is calculated as:
+
+satisfaction percentage minus industry benchmark percentage
+
+A positive gap means the department is above the fictional benchmark. A negative gap means it is below the benchmark.
+
+The policy-related fields are directional indicators. Manager effectiveness may relate to leadership experience. Workload balance may relate to capacity and sustainability. Learning access and learning-time completion may relate to development opportunities. One-on-one completion may indicate whether a manager practice is being performed.
+
+These fields can support questions such as:
+- Which departments are above or below the benchmark?
+- Which departments have the largest workload or learning gaps?
+- Do satisfaction trends move in the same direction as policy indicators?
+- Which policy areas may warrant further investigation?
+
+The data does not prove that a policy caused an employee satisfaction result. Additional evidence would include interviews, survey comments, retention trends, workload data, staffing levels, and controlled improvement pilots.
+
+Sales and Customer Success Data
+
+The sales_customer_success table contains quarterly results by region. Sales fields include sales_revenue_usd, qualified_opportunities, and won_deals.
+
+Win rate is calculated as:
+
+won_deals divided by qualified_opportunities
+
+Customer-success fields include renewal_rate_pct, customer_satisfaction_pct, implementation_on_time_pct, handoff_within_2_business_days_pct, success_plan_within_10_business_days_pct, and at_risk_action_plan_pct.
+
+These measures support analysis of whether strong sales performance is accompanied by strong customer outcomes and operating discipline.
+
+Interpretation Examples
+
+High revenue with low renewal rates may indicate growth that is not durable. Possible areas for review include sales qualification, implementation readiness, customer handoff quality, scope clarity, or account-health management.
+
+High win rates with low customer satisfaction may indicate that opportunities are being won without sufficient attention to customer fit, expectations, implementation complexity, or delivery capacity.
+
+Low handoff timeliness may indicate unclear ownership, incomplete sales records, missing required fields, or insufficient Customer Success capacity.
+
+Low success-plan completion may indicate weak onboarding discipline, lack of executive sponsorship, unclear customer outcomes, or competing delivery priorities.
+
+Low at-risk action-plan completion may indicate delayed escalation, unclear health-score thresholds, insufficient accountability, or inadequate recovery resources.
+
+Data Limitations
+
+The dataset is synthetic and may not represent actual business conditions. It does not include customer-level records, employee-level records, contract terms, detailed cost data, survey comments, complaint text, product usage events, or causal controls.
+
+Aggregate comparisons should not be used to make decisions about individual employees or customers. Policy recommendations should be treated as hypotheses for further testing.
+
+Recommended Analytical Workflow
+
+First, define the time period, population, metric, and comparison group. Second, validate that the relevant table and fields are complete. Third, calculate the metric using the appropriate denominator. Fourth, compare trends and segments. Fifth, connect observed patterns to relevant policy documents. Finally, recommend a pilot, additional data collection, or management action and define how success will be measured.

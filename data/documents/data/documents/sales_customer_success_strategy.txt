@@ -1,0 +1,13 @@
+Northstar Operations Group Sales and Customer Success Strategy
+
+Sales teams qualify opportunities using customer need, business value, decision process, implementation readiness, budget confidence, and strategic fit. Opportunities without a documented business problem should not be forecast as committed revenue.
+
+After contract signature, Sales must provide Customer Success with the signed scope, customer goals, implementation risks, key stakeholders, expected outcomes, and commercial commitments within two business days.
+
+Customer Success creates a documented success plan within ten business days for strategic accounts. The plan includes measurable outcomes, milestones, customer responsibilities, adoption measures, and an executive sponsor.
+
+Customer health is reviewed monthly using product adoption, open issues, support activity, payment status, stakeholder engagement, and progress against the success plan.
+
+Accounts with declining health require a documented action plan within five business days. Renewal planning begins at least 90 days before the renewal date.
+
+Leadership reviews revenue, win rate, renewal rate, customer satisfaction, implementation timeliness, handoff timeliness, success-plan completion, and at-risk action-plan completion together. Strong revenue performance is not sustainable if customer outcomes decline.

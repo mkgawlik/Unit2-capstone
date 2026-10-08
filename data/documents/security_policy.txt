@@ -1,0 +1,65 @@
+Northstar Operations Group Enterprise Security Policy
+
+Document Purpose
+
+This policy establishes the security requirements used to protect Northstar Operations Group employees, customers, systems, applications, facilities, and information. It applies to employees, contractors, temporary workers, vendors, and any other person who accesses Northstar resources.
+
+Security Objectives
+
+Northstar protects information according to its confidentiality, integrity, and availability requirements. Security controls are intended to prevent unauthorized access, reduce the likelihood of data loss, detect suspicious activity, support timely response, and restore services safely.
+
+Information Classification
+
+Public information may be shared externally after appropriate approval. Internal information is intended for Northstar personnel and approved business partners. Confidential information includes customer records, employee information, financial information, source code, credentials, contracts, security documentation, and nonpublic business plans.
+
+Confidential information must be stored only in approved company systems. It must not be copied to personal email, personal devices, removable media, messaging applications, or unauthorized cloud-storage services. Sensitive information must be encrypted during transmission and, where supported, while stored.
+
+Identity and Access Management
+
+Every user must have an individual account. Shared accounts are prohibited unless Information Security grants a documented exception. Users must not share passwords, authentication tokens, or access badges.
+
+Access is granted according to job responsibilities and the principle of least privilege. A manager requests access, the system owner approves the request, and the user receives only the permissions necessary to perform assigned work.
+
+Multi-factor authentication is required for remote access, privileged accounts, administrative functions, and business-critical applications. Passwords and authentication secrets must be stored and transmitted securely.
+
+System owners must review permissions at least quarterly. Access must be removed or adjusted within one business day when a person leaves Northstar, changes roles, or no longer needs access. Privileged access should receive additional monitoring and periodic review.
+
+Devices, Remote Work, and Network Use
+
+Company-managed laptops and mobile devices must use supported operating systems, endpoint protection, automatic screen locking, security updates, and full-disk encryption where technically available.
+
+Users working remotely must use approved networks and secure access methods. Confidential information must not be viewed in locations where unauthorized people can observe it. Lost or stolen devices must be reported immediately.
+
+Users may not disable endpoint protection, bypass security controls, install unapproved software, or connect unauthorized devices to company systems.
+
+Secure Application Development
+
+Applications must follow secure development practices. Production code requires peer review, automated testing, dependency checks, and security scanning before release. Changes involving authentication, authorization, payments, confidential data, infrastructure, or major database operations require enhanced review.
+
+Security vulnerabilities must be recorded, prioritized, assigned to an owner, and remediated according to their severity and business risk.
+
+Security Incident Reporting
+
+Users must report suspected phishing, malware, unauthorized access, credential compromise, lost devices, accidental disclosure, suspicious transactions, or unusual system behavior to the Service Desk or Information Security team within one hour of discovery.
+
+Users should preserve relevant evidence and must not delete messages, alter logs, investigate beyond their training, or communicate externally about an incident without authorization.
+
+Information Security determines severity, coordinates containment and investigation, and involves privacy, legal, communications, business owners, or vendors when appropriate.
+
+Third-Party and Vendor Security
+
+Vendors that access Northstar systems or confidential information must be evaluated according to their access, data sensitivity, service criticality, and security risk. Vendor access must be limited, monitored, reviewed, and removed when no longer required.
+
+Training and Awareness
+
+Security awareness training is required annually and when a significant change in responsibilities creates new security obligations. Additional training may be assigned after an incident, policy violation, or identified control weakness.
+
+Exceptions and Risk Acceptance
+
+Policy exceptions require documented business justification, affected systems and information, risk assessment, compensating controls, an expiration date, and approval from the Information Security Director. Permanent exceptions are not permitted without formal policy revision.
+
+Monitoring and Enforcement
+
+Northstar may monitor authentication events, network activity, endpoint alerts, system logs, data transfers, and security events to protect company resources and investigate potential incidents.
+
+Violations may result in additional training, access restrictions, disciplinary action, contract consequences, or legal escalation where appropriate. This policy is reviewed at least annually and after major changes to technology, risk, or business operations.

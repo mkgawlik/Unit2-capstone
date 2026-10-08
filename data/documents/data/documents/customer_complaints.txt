@@ -1,0 +1,11 @@
+Northstar Operations Group Customer Complaint Handling Procedure
+
+Customers may submit complaints through the support portal, email, phone, account manager, or designated escalation channel. Every complaint receives a case number, customer identifier, date received, product or service involved, and issue description.
+
+The support team must acknowledge a complaint within one business day. Standard complaints should receive an investigation update within three business days and a proposed resolution within five business days.
+
+High-severity complaints include potential privacy or security incidents, safety concerns, repeated service failures, executive escalations, and issues affecting multiple customers. These complaints must be escalated to Customer Success leadership on the same business day.
+
+The case owner reviews account history, service records, communications, and relevant product information. Possible resolutions include correcting the service issue, providing training, issuing an approved credit, replacing a deliverable, or changing a process.
+
+Material or repeated complaints require a root-cause review and a corrective action with an accountable owner. Customer Success reviews complaint volume, response time, resolution time, repeat complaints, escalation rate, and satisfaction trends monthly.

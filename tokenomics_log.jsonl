@@ -1,0 +1,12 @@
+{"timestamp": "2026-10-08T16:47:00.994504", "query": "Which product had the highest total revenue?", "agent": "manager-classifier", "input_tokens": 86, "output_tokens": 1, "cost_usd": 0.000138, "cost_per_1000_queries": 0.14}
+{"timestamp": "2026-10-08T16:47:02.063997", "query": "Which product had the highest total revenue?", "agent": "quantitative", "input_tokens": 413, "output_tokens": 34, "cost_usd": 0.000925, "cost_per_1000_queries": 0.93}
+{"timestamp": "2026-10-08T16:50:07.418667", "query": "who is caitlin clark?", "agent": "manager-classifier", "input_tokens": 86, "output_tokens": 2, "cost_usd": 0.000147, "cost_per_1000_queries": 0.15}
+{"timestamp": "2026-10-08T16:50:08.429239", "query": "who is caitlin clark?", "agent": "qualitative", "input_tokens": 573, "output_tokens": 10, "cost_usd": 0.000949, "cost_per_1000_queries": 0.95}
+{"timestamp": "2026-10-08T16:58:32.924858", "query": "what is q4 results", "agent": "manager-classifier", "input_tokens": 83, "output_tokens": 1, "cost_usd": 0.000134, "cost_per_1000_queries": 0.13}
+{"timestamp": "2026-10-08T16:58:34.298694", "query": "what is q4 results", "agent": "quantitative", "input_tokens": 587, "output_tokens": 230, "cost_usd": 0.00295, "cost_per_1000_queries": 2.95}
+{"timestamp": "2026-10-08T17:09:40.847679", "query": "what is the biggest customer complaint", "agent": "manager-classifier", "input_tokens": 84, "output_tokens": 1, "cost_usd": 0.000135, "cost_per_1000_queries": 0.14}
+{"timestamp": "2026-10-08T17:09:41.730030", "query": "what is the biggest customer complaint", "agent": "qualitative", "input_tokens": 605, "output_tokens": 10, "cost_usd": 0.000997, "cost_per_1000_queries": 1.0}
+{"timestamp": "2026-10-08T17:09:43.054518", "query": "what is the biggest customer complaint", "agent": "quantitative", "input_tokens": 651, "output_tokens": 70, "cost_usd": 0.001607, "cost_per_1000_queries": 1.61}
+{"timestamp": "2026-10-08T17:09:55.859092", "query": "what are customer complaints", "agent": "manager-classifier", "input_tokens": 82, "output_tokens": 1, "cost_usd": 0.000132, "cost_per_1000_queries": 0.13}
+{"timestamp": "2026-10-08T17:10:01.633029", "query": "what are customer complaints", "agent": "qualitative", "input_tokens": 631, "output_tokens": 20, "cost_usd": 0.001127, "cost_per_1000_queries": 1.13}
+{"timestamp": "2026-10-08T17:10:22.736129", "query": "what are customer complaints", "agent": "quantitative", "input_tokens": 644, "output_tokens": 274, "cost_usd": 0.003432, "cost_per_1000_queries": 3.43}

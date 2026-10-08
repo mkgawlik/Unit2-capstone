@@ -1,0 +1,65 @@
+Northstar Operations Group Software Code Review Process
+
+Purpose
+
+The code review process helps Northstar release software that is reliable, secure, maintainable, testable, and aligned with business requirements. It also supports knowledge sharing and creates a record of important technical decisions.
+
+Scope
+
+The process applies to production code, infrastructure-as-code, database changes, scripts that handle company data, configuration changes, and significant changes to build or deployment processes.
+
+Developer Responsibilities
+
+Before opening a pull request, the developer should confirm that the change has a clear business or technical purpose, follows approved coding standards, includes appropriate tests, and does not expose credentials, personal information, confidential data, or insecure defaults.
+
+The developer must provide a description of the problem, proposed solution, affected components, testing completed, deployment considerations, known risks, rollback approach, and any follow-up work.
+
+Pull Request Requirements
+
+A pull request should be focused and small enough for reviewers to understand. Large changes should be divided into logical units when practical.
+
+The pull request must identify whether the change affects authentication, authorization, privacy, payments, external integrations, infrastructure, data migrations, performance, or customer-facing behavior.
+
+Automated Checks
+
+Before approval, required automated checks must pass. These may include unit tests, integration tests, end-to-end tests, formatting checks, linting, dependency vulnerability checks, static analysis, secret scanning, license checks, and security testing.
+
+A failed automated check must be investigated. Developers should not bypass a required check without documented approval and a clear reason.
+
+Review Levels
+
+A standard change requires approval from at least one qualified peer reviewer.
+
+A high-risk change requires two reviewers. At least one reviewer must have relevant technical, security, privacy, infrastructure, database, or domain expertise.
+
+High-risk changes include modifications to authentication or authorization, payment processing, confidential data, encryption, access permissions, infrastructure, major database schemas, customer billing, production availability, or externally exposed interfaces.
+
+Reviewer Responsibilities
+
+Reviewers evaluate whether the implementation meets the stated objective and whether the change introduces avoidable risk. Reviewers should consider correctness, security, privacy, test coverage, error handling, performance, reliability, maintainability, observability, accessibility, deployment impact, and rollback feasibility.
+
+Comments should be specific and respectful. Blocking issues should be clearly distinguished from nonblocking suggestions. Reviewers should explain why a change is needed and, where useful, propose an alternative.
+
+Approval and Merge Controls
+
+Only the pull request author or an authorized release manager may merge approved code. Branch protection must prevent merging when required approvals, automated checks, or review requirements are missing.
+
+The author is responsible for responding to comments, updating the change, rerunning relevant tests, and confirming that the final version matches the approved version.
+
+Database and Data Changes
+
+Database migrations must describe affected tables, expected data volume, compatibility considerations, rollback limitations, backup requirements, and potential downtime. Destructive changes require additional review and a recovery plan.
+
+Changes involving personal, confidential, or regulated information must consider data minimization, access control, retention, masking, encryption, and logging.
+
+Emergency Changes
+
+An emergency fix may use an expedited review path when delay would create material operational, security, customer, or business risk. The change still requires appropriate testing and approval to the extent practical.
+
+A second review and retrospective review must be completed within two business days. The retrospective must document the reason for the emergency, risks accepted, tests performed, and follow-up actions.
+
+Records and Metrics
+
+Pull requests, approvals, review comments, test results, security findings, exceptions, and significant design decisions must be retained with the source-code repository.
+
+Engineering leaders may review review-cycle time, reopened pull requests, escaped defects, security findings, emergency changes, review coverage, and recurring review themes. Metrics are intended to improve the process and should not encourage superficial approvals.

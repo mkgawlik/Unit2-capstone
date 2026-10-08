@@ -1,0 +1,11 @@
+Northstar Operations Group Security Policy
+
+All users must have individual accounts. Shared accounts are prohibited unless approved by Information Security. Multi-factor authentication is required for remote access, privileged accounts, and critical applications.
+
+Access must follow the principle of least privilege. Managers request access, system owners approve it, and access permissions are reviewed quarterly. Access must be removed within one business day when an employee leaves or changes roles.
+
+Confidential information must be stored only in approved company systems. Sensitive data must be encrypted during storage and transmission. Employees may not copy company information to personal email, personal devices, or unauthorized cloud services.
+
+Employees must report suspected phishing, malware, unauthorized access, lost devices, or accidental data disclosure to the Service Desk or Information Security team within one hour of discovery.
+
+Security awareness training is required annually. Policy exceptions require documented business justification, a risk assessment, an expiration date, and Information Security Director approval.

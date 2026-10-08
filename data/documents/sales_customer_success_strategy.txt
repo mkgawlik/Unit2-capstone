@@ -1,0 +1,65 @@
+Northstar Operations Group Sales and Customer Success Strategy
+
+Purpose
+
+Northstar aligns Sales and Customer Success around profitable growth, strong customer outcomes, durable relationships, and reliable delivery. Revenue growth should be evaluated together with customer satisfaction, renewal performance, implementation quality, complaint trends, and account health.
+
+Opportunity Qualification
+
+Sales teams qualify opportunities using customer need, business value, decision process, implementation readiness, budget confidence, competitive position, strategic fit, and ability to deliver the proposed outcome.
+
+An opportunity should not be forecast as committed revenue unless the business problem, buying process, expected timing, decision makers, commercial assumptions, and delivery considerations are documented.
+
+Sales teams should avoid selling commitments that are not supported by the approved scope, delivery capacity, product capability, or customer success model.
+
+Customer Handoff
+
+After contract signature, Sales must provide Customer Success with the approved scope, customer goals, expected outcomes, key stakeholders, implementation risks, commercial commitments, timeline, dependencies, and known concerns.
+
+The handoff should occur within two business days of signature. Customer Success should confirm receipt, identify missing information, and assign an accountable owner.
+
+A weak handoff can create implementation delays, customer dissatisfaction, rework, complaints, scope confusion, and renewal risk.
+
+Success Planning
+
+Customer Success creates a documented success plan within ten business days for strategic accounts. The plan should identify measurable outcomes, milestones, customer responsibilities, adoption measures, risks, dependencies, executive sponsors, and review dates.
+
+Success plans should be updated when customer priorities, scope, stakeholders, timeline, product usage, or risk conditions change.
+
+Account Health
+
+Customer health is reviewed monthly using product adoption, open issues, support activity, payment status, stakeholder engagement, progress against the success plan, implementation status, customer sentiment, and executive involvement.
+
+Health ratings should be supported by evidence rather than optimism. Declining health requires an action plan within five business days. The plan should identify the risk, accountable owner, recovery actions, next customer interaction, and target date.
+
+Renewal and Expansion
+
+Renewal planning begins at least 90 days before the renewal date. Customer Success must confirm realized value, review unresolved issues, identify stakeholders and decision criteria, assess commercial risk, and coordinate with Sales.
+
+Expansion opportunities should be based on demonstrated customer value, adoption, capacity, and a credible customer need. Expansion should not take priority over unresolved service or implementation problems.
+
+Customer Feedback and Complaints
+
+Complaints, support trends, satisfaction scores, implementation delays, product gaps, and recurring service issues must be shared with Product, Sales, Operations, and leadership when relevant.
+
+Repeated problems require a documented corrective action. Corrective actions should identify the root cause, owner, expected benefit, target date, and method for measuring improvement.
+
+Performance Measures
+
+Leadership reviews sales revenue, qualified opportunities, won deals, win rate, renewal rate, customer satisfaction, implementation timeliness, complaint volume, handoff timeliness, success-plan completion, at-risk action-plan completion, and expansion activity together.
+
+A region or team with high revenue but declining renewal rates, satisfaction, implementation performance, or account health may have an unsustainable growth pattern.
+
+Policy Improvement Opportunities
+
+If handoffs are late, Northstar may strengthen handoff checklists, ownership requirements, required fields, and escalation rules.
+
+If success plans are late or incomplete, Northstar may require milestone tracking, manager review, standard templates, or capacity adjustments.
+
+If at-risk action plans are delayed, Northstar may establish health-score thresholds, five-day response requirements, executive escalation, and weekly recovery reviews.
+
+If revenue is strong but customer outcomes are weak, Northstar should review qualification standards, scope governance, implementation readiness, incentive design, and collaboration between Sales and Customer Success.
+
+Analytical Caution
+
+Regional aggregate data can identify patterns and possible policy priorities, but it cannot prove that a particular policy caused a result. Recommendations should be tested through additional account-level analysis, interviews, pilots, and follow-up measurement.

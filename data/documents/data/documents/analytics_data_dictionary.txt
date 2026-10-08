@@ -1,0 +1,15 @@
+Northstar Operations Group Analytics Data Dictionary
+
+All records in this demonstration dataset are fictional and non-confidential.
+
+Revenue is recorded by month and region. Monthly revenue trends are calculated by summing revenue across regions for each month. Q4 represents October through December 2025.
+
+Gross customer churn rate is calculated as churned customers divided by beginning customers. A weighted period churn rate is calculated as total churned customers divided by total beginning customers.
+
+Employee satisfaction is compared with a fictional industry benchmark. The benchmark gap equals satisfaction percentage minus benchmark percentage.
+
+Employee policy indicators include manager effectiveness, workload balance, learning access, monthly one-on-one completion, and learning-time target completion.
+
+Sales performance includes revenue, qualified opportunities, won deals, and win rate. Customer success outcomes include renewal rate, customer satisfaction, implementation timeliness, customer handoff timeliness, success-plan completion, and at-risk action-plan completion.
+
+Aggregate data can identify relationships and policy areas for review, but it cannot prove that a policy caused a specific business outcome.
