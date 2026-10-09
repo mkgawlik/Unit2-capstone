@@ -70,6 +70,8 @@ User Query (CLI)
 
 
 ## Project Structure
+
+```
 unit2-capstone/
 ├── agents/
 │   ├── manager.py
@@ -113,6 +115,7 @@ unit2-capstone/
 └── validation/
     ├── __init__.py
     └── validator.py
+```
 
 
 
@@ -146,7 +149,9 @@ SELECT month, SUM(revenue_usd) AS total_revenue
 FROM regional_revenue
 GROUP BY month
 ORDER BY month
+
 3. Nothing was flagged. Validation: PASSED.
+
 4. I did not change anything because the agent properly calculated revenue trends and showed the SQL calculation behind the numbers. I accepted the answer and left it unchanged.
 
 
