@@ -2,97 +2,119 @@
 
 ## System Architecture 
 
-'''
 
+ 
+```text
 User Query (CLI)
+ 
       │
+ 
       ▼
+ 
 ┌─────────────────┐
+ 
 │  Manager Agent  │  ── classifies query ──► qualitative / quantitative / both
+ 
 └─────────────────┘
+ 
       │                          │
+ 
       ▼                          ▼
+ 
 ┌──────────────────┐    ┌───────────────────┐
+ 
 │ Qualitative Agent│    │ Quantitative Agent │
+ 
 │                  │    │                   │
+ 
 │ • Vector DB      │    │ • SQLite DB        │
+ 
 │   (ChromaDB)     │    │ • NL → SQL         │
+ 
 │ • Semantic search│    │ • Query execution  │
+ 
 │ • Claude for     │    │ • Claude for       │
+ 
 │   generation     │    │   interpretation   │
+ 
 └──────────────────┘    └───────────────────┘
+ 
       │                          │
+ 
       └──────────┬───────────────┘
+ 
                  ▼
+ 
       ┌─────────────────────┐
+ 
       │  Validation Layer   │  ── checks grounding, flags issues
+ 
       └─────────────────────┘
+ 
                  │
+ 
                  ▼
+ 
       ┌─────────────────────┐
+ 
       │  Tokenomics Logger  │  ── logs token usage and cost per query
+ 
       └─────────────────────┘
+ 
                  │
+ 
                  ▼
+ 
         Response to User
-'''
+```
+
 
 ## Project Structure
+unit2-capstone/
+├── agents/
+│   ├── manager.py
+│   ├── qualitative.py
+│   └── quantitative.py
+├── data/
+│   ├── chroma/
+│   │   ├── 565e0b7b-1025-4cd7-8312-a3726304a367/
+│   │   │   ├── data_level0.bin
+│   │   │   ├── header.bin
+│   │   │   ├── length.bin
+│   │   │   └── link_lists.bin
+│   │   └── chroma.sqlite3
+│   └── documents/
+│       ├── analytics_data_dictionary.txt
+│       ├── code_review_process.txt
+│       ├── customer_complaints.txt
+│       ├── employee_experience_policy.txt
+│       ├── sales_customer_success_strategy.txt
+│       ├── security_policy.txt
+│       ├── database.sqlite
+│       ├── query_examples.sql
+│       ├── setup_mock_data.py
+│       └── data/
+│           └── documents/
+│               ├── analytics_data_dictionary.txt
+│               ├── code_review_process.txt
+│               ├── customer_complaints.txt
+│               ├── employee_experience_policy.txt
+│               ├── sales_customer_success_strategy.txt
+│               └── security_policy.txt
+├── ingest.py
+├── main.py
+├── README.md
+├── requirements.txt
+├── smoketest.py
+├── test_retrival.py
+├── tokenomics/
+│   └── logger.py
+├── tokenomics_log.jsonl
+└── validation/
+    ├── __init__.py
+    └── validator.py
 
-'''
-─ unit2-capstone
-│   ├── agents
-│   │   ├── manager.py
-│   │   ├── __pycache__
-│   │   │   ├── manager.cpython-312.pyc
-│   │   │   ├── qualitative.cpython-312.pyc
-│   │   │   └── quantitative.cpython-312.pyc
-│   │   ├── qualitative.py
-│   │   └── quantitative.py
-│   ├── data
-│   │   ├── chroma
-│   │   │   ├── 565e0b7b-1025-4cd7-8312-a3726304a367
-│   │   │   │   ├── data_level0.bin
-│   │   │   │   ├── header.bin
-│   │   │   │   ├── length.bin
-│   │   │   │   └── link_lists.bin
-│   │   │   └── chroma.sqlite3
-│   │   └── documents
-│   │       ├── analytics_data_dictionary.txt
-│   │       ├── code_review_process.txt
-│   │       ├── customer_complaints.txt
-│   │       ├── data
-│   │       │   └── documents
-│   │       │       ├── analytics_data_dictionary.txt
-│   │       │       ├── code_review_process.txt
-│   │       │       ├── customer_complaints.txt
-│   │       │       ├── employee_experience_policy.txt
-│   │       │       ├── sales_customer_success_strategy.txt
-│   │       │       └── security_policy.txt
-│   │       ├── database.sqlite
-│   │       ├── employee_experience_policy.txt
-│   │       ├── query_examples.sql
-│   │       ├── sales_customer_success_strategy.txt
-│   │       ├── security_policy.txt
-│   │       └── setup_mock_data.py
-│   ├── ingest.py
-│   ├── main.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── smoketest.py
-│   ├── test_retrival.py
-│   ├── tokenomics
-│   │   ├── logger.py
-│   │   └── __pycache__
-│   │       └── logger.cpython-312.pyc
-│   ├── tokenomics_log.jsonl
-│   └── validation
-│       ├── __init__.py
-│       ├── __pycache__
-│       │   ├── __init__.cpython-312.pyc
-│       │   └── validator.cpython-312.pyc
-│       └── validator.py
-'''
+
 
 ## Trust But Verify
 QUERY 1
