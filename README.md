@@ -1,6 +1,9 @@
 # Unit2-capstone
 
 ## System Architecture 
+
+'''
+
 User Query (CLI)
       │
       ▼
@@ -32,9 +35,11 @@ User Query (CLI)
                  │
                  ▼
         Response to User
-
+'''
 
 ## Project Structure
+
+'''
 ─ unit2-capstone
 │   ├── agents
 │   │   ├── manager.py
@@ -87,6 +92,7 @@ User Query (CLI)
 │       │   ├── __init__.cpython-312.pyc
 │       │   └── validator.cpython-312.pyc
 │       └── validator.py
+'''
 
 ## Trust But Verify
 QUERY 1
